@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.asnauj.aplicacionpaciente.activities.person.PacienteDPersonalesActivity">
+
+    <Switch
+        android:id="@+id/switch_no_resucitar"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:text="No resusitar" />
+    <Switch
+        android:id="@+id/switch_donador"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:text="Donador" />
+    <Switch
+        android:id="@+id/switch_fumador"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:text="Fumador" />
+    <Switch
+        android:id="@+id/switch_bebedor"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:text="Bebedor" />
+
+    <Button
+        android:id="@+id/infoPersonal_guardar"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guarddar" />
+
+</LinearLayout>

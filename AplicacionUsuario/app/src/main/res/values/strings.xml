@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sistema Historias Medicas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_info_paciente_admin">InfoPacienteAdminActivity</string>
+    <string name="title_activity_info_paciente_doc">InfoPacienteDocActivity</string>
+</resources>

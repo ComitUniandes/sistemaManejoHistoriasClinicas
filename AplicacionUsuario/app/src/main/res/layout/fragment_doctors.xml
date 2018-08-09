@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.asnauj.aplicacionpaciente.fragments.person.DoctorsFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <LinearLayout
+            android:id="@+id/lay_docsenPac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/et_newdoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Documento doctor nuevo"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/add_permited_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar doctor" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.asnauj.aplicacionpaciente.fragments.person.MedicFragment">
+
+
+    <Button
+        android:id="@+id/buttonMeidcamentosPaciente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver medicamentos" />
+    <Button
+        android:id="@+id/buttonDiagnosticoPaciente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver procedimientos" />
+    <Button
+        android:id="@+id/buttonConsultaPaciente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:text="Ver consultas" />
+
+
+</LinearLayout>
